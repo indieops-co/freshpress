@@ -4,6 +4,13 @@ All buyer-facing changes are documented here. Format: `## v0.x.0 — YYYY-MM-DD`
 
 ---
 
+## v0.11.1 — 2026-10-06
+
+### Fixed
+- **Pro install:** the Pro package now includes the Deep Brand Research files that live outside `src/paid/`. In v0.11.0 they were missing from the Pro download, so a Pro install on top of the free edition failed to build. The free edition is unchanged.
+
+---
+
 ## v0.11.0 — 2026-10-06
 
 First public release of the FreshPress free edition: https://github.com/indieops-co/freshpress

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "desc": "Black & white precision, Geist font",
+    "aesthetic": "Minimalist Precision"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "desc": "Vibrant multi-color, playful yet professional",
+    "aesthetic": "Playful Professional"
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "desc": "Bold black & blue, motion-first",
+    "aesthetic": "Motion-First Bold"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "desc": "Blue-accented, polished marketing site",
+    "aesthetic": "Polished Marketing"
+  },
+  {
+    "id": "resend",
+    "name": "Resend",
+    "desc": "Minimal dark theme, monospace accents",
+    "aesthetic": "Developer Minimal"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "desc": "Warm orange, illustration-driven",
+    "aesthetic": "Warm Friendly"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "desc": "Colorful, friendly, structured data",
+    "aesthetic": "Colorful Structured"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "desc": "Sleek dark, gradient accents",
+    "aesthetic": "Dark Tech"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "desc": "Dark cinematic, audio-waveform aesthetics",
+    "aesthetic": "Cinematic Dark"
+  },
+  {
+    "id": "cal",
+    "name": "Cal.com",
+    "desc": "Clean SaaS, strong typographic hierarchy",
+    "aesthetic": "Clean SaaS"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "desc": "French minimalism, purple-toned",
+    "aesthetic": "European Minimal"
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast",
+    "desc": "Sleek dark chrome, vibrant gradient accents",
+    "aesthetic": "Dark Chrome"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "desc": "Navy ink, electric indigo, gradient-mesh hero, S\u00f6hne type",
+    "aesthetic": "Fintech Gradient"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "desc": "Near-black canvas, lavender-blue accent, software-craft density",
+    "aesthetic": "Dark Craft"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "desc": "Photography-first gallery, SF Pro, single action blue",
+    "aesthetic": "Product Gallery"
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "desc": "Uppercase Futura lockups, black/white chrome, athletic photography",
+    "aesthetic": "Athletic Bold"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "desc": "Navy hero, purple pill CTA, pastel feature cards, illustrations",
+    "aesthetic": "Playful Workspace"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "desc": "Near-black cocoon, Spotify Green, pill-and-circle geometry",
+    "aesthetic": "Immersive Dark"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "desc": "White and near-black, emerald CTA, dense product mockups",
+    "aesthetic": "Developer Green"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "desc": "Dual-track: near-black cinematic heroes, cream-mint commerce pages",
+    "aesthetic": "Cinematic Commerce"
+  }
+]

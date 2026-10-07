@@ -1,0 +1,23 @@
+node_modules/
+dist/
+dist-paid/
+data/
+.env
+.env.local
+.env.*.local
+ref/MongoDB_connection.txt
+*.log
+.DS_Store
+*.tsbuildinfo
+
+# agentic-stack runtime artifacts (not the memory content itself, which is tracked)
+.agent/**/__pycache__/
+.agent/install.json.lock
+.agent/memory/.index/
+
+# agentic-stack memory: high-churn/local working state, not shared across branches.
+# semantic/ (LESSONS.md, DECISIONS.md, DOMAIN_KNOWLEDGE.md) and personal/PREFERENCES.md
+# stay tracked — they're the curated, low-churn output meant to travel with the repo.
+.agent/memory/episodic/
+.agent/memory/candidates/
+.agent/memory/working/

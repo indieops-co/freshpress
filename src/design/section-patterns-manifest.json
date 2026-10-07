@@ -1,0 +1,141 @@
+[
+  {
+    "id": "service-business",
+    "industry": "Service business",
+    "aliases": ["services", "agency", "contractor", "plumber", "landscaping", "cleaning", "home services", "consulting", "local service", "trades"],
+    "name": "Service Business",
+    "desc": "Trust-first layout for a business selling a hands-on service: lead with the offer and a clear call, prove credibility, make contact effortless.",
+    "personalityAffinity": ["professional", "friendly", "warm", "bold"],
+    "moodAffinity": ["clean", "light", "corporate"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Top navigation", "intent": "Logo, a few links, and a prominent 'Get a quote' CTA — service buyers act fast.", "slotHints": ["logo", "navLink1", "navLink2", "navLink3", "navCta"] },
+      { "id": "hero", "type": "HeroSection", "label": "Hero with primary CTA", "intent": "One-line promise of the outcome, a supporting sentence, and a booking/quote button.", "slotHints": ["headline", "subhead", "primaryCta", "secondaryCta"] },
+      { "id": "services", "type": "FeatureGrid", "label": "Services grid", "intent": "3–6 cards naming the concrete services offered, each with a short benefit line.", "slotHints": ["service1Title", "service1Body", "service2Title", "service2Body", "service3Title", "service3Body"] },
+      { "id": "why", "type": "InfoCard", "label": "Why choose us", "intent": "Credibility block: years in business, guarantees, licensing/insurance, service area.", "slotHints": ["whyTitle", "whyBody"] },
+      { "id": "testimonials", "type": "TestimonialCard", "label": "Customer testimonials", "intent": "2–3 real-sounding quotes with name and locale to reduce hire risk.", "slotHints": ["quote1", "author1", "quote2", "author2"], "optional": true },
+      { "id": "cta", "type": "CTASection", "label": "Closing call to action", "intent": "Restate the offer and push to contact/quote with a single strong button.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "contact", "type": "Form", "label": "Contact / quote form", "intent": "Name, contact, and 'what do you need' — the lead capture that drives the business.", "slotHints": ["formTitle", "nameField", "emailField", "messageField", "submitButton"] },
+      { "id": "signup", "type": "SignupForm", "label": "Newsletter signup", "intent": "Low-friction email capture before the footer: one line on what subscribers get, name+email, subscribe button.", "slotHints": ["title", "intro", "submit"], "optIn": true },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Hours, phone, service area, and secondary links.", "slotHints": ["footerAddress", "footerPhone", "footerLinks"] }
+    ]
+  },
+  {
+    "id": "saas",
+    "industry": "SaaS / software",
+    "aliases": ["saas", "software", "app", "platform", "startup", "b2b", "tech", "developer tools", "api", "productivity"],
+    "name": "SaaS / Software",
+    "desc": "Conversion-focused product page: hero the value prop, show the product working, prove it with logos and features, and price it clearly.",
+    "personalityAffinity": ["modern", "technical", "bold", "minimal"],
+    "moodAffinity": ["clean", "dark", "futuristic", "vibrant"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Top navigation", "intent": "Logo, product/pricing/docs links, sign-in, and a 'Start free' CTA.", "slotHints": ["logo", "navProduct", "navPricing", "navDocs", "navSignin", "navCta"] },
+      { "id": "hero", "type": "HeroSection", "label": "Value-prop hero", "intent": "Sharp headline on the core benefit, one-sentence subhead, primary + secondary CTA.", "slotHints": ["headline", "subhead", "primaryCta", "secondaryCta"] },
+      { "id": "productShot", "type": "HeroImage", "label": "Product screenshot", "intent": "A framed screenshot or UI mock so the visitor sees the product immediately.", "slotHints": ["productImage"] },
+      { "id": "logos", "type": "Gallery", "label": "Trusted-by logos", "intent": "A quiet row of customer/partner logos for social proof.", "slotHints": ["logo1", "logo2", "logo3", "logo4"], "optional": true },
+      { "id": "features", "type": "FeatureGrid", "label": "Feature grid", "intent": "3–6 feature cards, each an outcome-led title plus one explanatory line.", "slotHints": ["feature1Title", "feature1Body", "feature2Title", "feature2Body", "feature3Title", "feature3Body"] },
+      { "id": "testimonials", "type": "TestimonialCard", "label": "Testimonials", "intent": "1–2 customer quotes with name, role, and company.", "slotHints": ["quote1", "author1"], "optional": true },
+      { "id": "pricing", "type": "PricingTable", "label": "Pricing tiers", "intent": "2–3 pricing cards with plan name, price, and a short feature list each.", "slotHints": ["tier1Name", "tier1Price", "tier1Features", "tier2Name", "tier2Price", "tier2Features"] },
+      { "id": "faq", "type": "FAQItem", "label": "FAQ", "intent": "4–6 objection-handling Q&A pairs.", "slotHints": ["q1", "a1", "q2", "a2"], "optional": true },
+      { "id": "cta", "type": "CTASection", "label": "Sign-up CTA", "intent": "Final push to start a trial with a single primary button.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "signup", "type": "SignupForm", "label": "Newsletter signup", "intent": "Low-friction email capture before the footer: one line on what subscribers get, name+email, subscribe button.", "slotHints": ["title", "intro", "submit"], "optIn": true },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Product, company, resources, and legal link columns.", "slotHints": ["footerCols"] }
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "industry": "E-commerce / online store",
+    "aliases": ["ecommerce", "e-commerce", "shop", "store", "retail", "products", "online store", "boutique", "dtc"],
+    "name": "E-commerce / Store",
+    "desc": "Product-forward storefront: hero a flagship product or collection, merchandise with a grid, build the brand story, and reassure at checkout.",
+    "personalityAffinity": ["bold", "elegant", "playful", "luxurious"],
+    "moodAffinity": ["vibrant", "clean", "organic", "creative"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Store navigation", "intent": "Logo, category links, search, and cart — the storefront chrome.", "slotHints": ["logo", "navShop", "navCollections", "navAbout", "navCart"] },
+      { "id": "hero", "type": "HeroSection", "label": "Campaign hero", "intent": "A hero image with a headline for the flagship product/collection and a 'Shop now' CTA.", "slotHints": ["headline", "subhead", "primaryCta"] },
+      { "id": "featuredProducts", "type": "Gallery", "label": "Featured products grid", "intent": "A grid of product cards (image, name, price) for the current bestsellers.", "slotHints": ["product1Image", "product1Name", "product1Price", "product2Image", "product2Name", "product2Price"] },
+      { "id": "collections", "type": "FeatureGrid", "label": "Shop by collection", "intent": "2–4 collection tiles to route shoppers into the catalog.", "slotHints": ["collection1", "collection2", "collection3"], "optional": true },
+      { "id": "story", "type": "InfoCard", "label": "Brand story", "intent": "A short block on what the brand stands for — differentiator for DTC brands.", "slotHints": ["storyTitle", "storyBody"], "optional": true },
+      { "id": "reviews", "type": "TestimonialCard", "label": "Customer reviews", "intent": "A few starred reviews to build purchase confidence.", "slotHints": ["review1", "reviewer1"], "optional": true },
+      { "id": "cta", "type": "CTASection", "label": "Promo / newsletter CTA", "intent": "Email capture or a promo push before the footer.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "signup", "type": "SignupForm", "label": "Newsletter signup", "intent": "Low-friction email capture before the footer: one line on what subscribers get, name+email, subscribe button.", "slotHints": ["title", "intro", "submit"], "optIn": true },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Shop, help, shipping/returns, and social columns.", "slotHints": ["footerCols"] }
+    ]
+  },
+  {
+    "id": "portfolio",
+    "industry": "Portfolio / personal",
+    "aliases": ["portfolio", "personal", "freelance", "designer", "photographer", "artist", "developer", "creative", "resume", "maker"],
+    "name": "Portfolio / Personal",
+    "desc": "Work-first personal site: a confident intro, a gallery of the best work, a short about, and a low-friction way to get in touch.",
+    "personalityAffinity": ["minimal", "editorial", "elegant", "bold", "modern"],
+    "moodAffinity": ["clean", "dark", "muted", "creative"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Minimal nav", "intent": "Name/wordmark and a couple of links (Work, About, Contact).", "slotHints": ["logo", "navWork", "navAbout", "navContact"] },
+      { "id": "hero", "type": "HeroSection", "label": "Intro hero", "intent": "Name + one-line statement of what you do and who for.", "slotHints": ["headline", "subhead", "primaryCta"] },
+      { "id": "work", "type": "Gallery", "label": "Selected work", "intent": "The centerpiece: a grid of project thumbnails, each a title and one line.", "slotHints": ["project1Image", "project1Title", "project2Image", "project2Title", "project3Image", "project3Title"] },
+      { "id": "about", "type": "InfoCard", "label": "About", "intent": "A short bio paragraph and, optionally, a photo.", "slotHints": ["aboutTitle", "aboutBody"] },
+      { "id": "clients", "type": "TestimonialCard", "label": "Kind words", "intent": "1–2 client/collaborator quotes.", "slotHints": ["quote1", "author1"], "optional": true },
+      { "id": "contact", "type": "CTASection", "label": "Get in touch", "intent": "A single line and a mailto/contact button.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Social links and a copyright line.", "slotHints": ["footerSocial"] }
+    ]
+  },
+  {
+    "id": "restaurant-local",
+    "industry": "Restaurant / local",
+    "aliases": ["restaurant", "cafe", "coffee", "coffee shop", "coffee house", "bar", "food", "local", "bakery", "hospitality", "eatery", "diner"],
+    "name": "Restaurant / Local",
+    "desc": "Appetite-and-visit layout: set the mood with imagery, show the menu, make hours and location obvious, and drive reservations.",
+    "personalityAffinity": ["warm", "elegant", "playful", "friendly"],
+    "moodAffinity": ["organic", "vibrant", "muted", "cinematic"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Navigation", "intent": "Logo, Menu / About / Contact links, and a 'Reserve' CTA.", "slotHints": ["logo", "navMenu", "navAbout", "navContact", "navCta"] },
+      { "id": "hero", "type": "HeroSection", "label": "Ambience hero", "intent": "A full-bleed food/venue image with the name, tagline, and 'Book a table' CTA.", "slotHints": ["headline", "subhead", "primaryCta"] },
+      { "id": "menu", "type": "FeatureGrid", "label": "Menu highlights", "intent": "A few signature dishes/sections with name, short description, and price.", "slotHints": ["dish1Name", "dish1Body", "dish1Price", "dish2Name", "dish2Body", "dish2Price"] },
+      { "id": "gallery", "type": "Gallery", "label": "Photo gallery", "intent": "A few plating/venue photos to set expectations.", "slotHints": ["galleryImage1", "galleryImage2", "galleryImage3"], "optional": true },
+      { "id": "about", "type": "InfoCard", "label": "Our story", "intent": "A short paragraph on the kitchen/owners/sourcing.", "slotHints": ["aboutTitle", "aboutBody"], "optional": true },
+      { "id": "hours", "type": "InfoCard", "label": "Hours & location", "intent": "Address, hours, and a map/directions link — the visit details.", "slotHints": ["address", "hours", "phone"] },
+      { "id": "cta", "type": "CTASection", "label": "Reservation CTA", "intent": "Restate 'Book a table' with a button linking to reservations.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Social, hours, and address repeated for convenience.", "slotHints": ["footerAddress", "footerSocial"] }
+    ]
+  },
+  {
+    "id": "professional-services",
+    "industry": "Professional services",
+    "aliases": ["professional services", "law", "legal", "accounting", "finance", "medical", "clinic", "advisory", "insurance", "wealth"],
+    "name": "Professional Services",
+    "desc": "Authority-and-trust layout for licensed professionals: a composed hero, clear practice areas, credentials, and a consultation prompt.",
+    "personalityAffinity": ["professional", "elegant", "minimal", "editorial"],
+    "moodAffinity": ["corporate", "clean", "muted", "light"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Navigation", "intent": "Logo, practice-area and team links, and a 'Book a consultation' CTA.", "slotHints": ["logo", "navServices", "navTeam", "navContact", "navCta"] },
+      { "id": "hero", "type": "HeroSection", "label": "Authority hero", "intent": "A calm, confident headline on the outcome you deliver and a consultation CTA.", "slotHints": ["headline", "subhead", "primaryCta"] },
+      { "id": "practiceAreas", "type": "FeatureGrid", "label": "Practice areas / services", "intent": "Cards naming each area of practice with a one-line description.", "slotHints": ["area1Title", "area1Body", "area2Title", "area2Body", "area3Title", "area3Body"] },
+      { "id": "credentials", "type": "InfoCard", "label": "Credentials & approach", "intent": "Experience, certifications, and how you work — the trust block.", "slotHints": ["credTitle", "credBody"] },
+      { "id": "team", "type": "Gallery", "label": "Team / attorneys", "intent": "Headshots with name and title for the key people.", "slotHints": ["person1Image", "person1Name", "person1Title"], "optional": true },
+      { "id": "testimonials", "type": "TestimonialCard", "label": "Client outcomes", "intent": "1–2 discreet client quotes or result statements.", "slotHints": ["quote1", "author1"], "optional": true },
+      { "id": "cta", "type": "CTASection", "label": "Consultation CTA", "intent": "Invite a first consultation with a single clear button.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "contact", "type": "Form", "label": "Contact form", "intent": "Name, contact, and matter description for intake.", "slotHints": ["formTitle", "nameField", "emailField", "messageField", "submitButton"], "optional": true },
+      { "id": "signup", "type": "SignupForm", "label": "Newsletter signup", "intent": "Low-friction email capture before the footer: one line on what subscribers get, name+email, subscribe button.", "slotHints": ["title", "intro", "submit"], "optIn": true },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Office address, phone, and legal/disclaimer links.", "slotHints": ["footerAddress", "footerLegal"] }
+    ]
+  },
+  {
+    "id": "generic",
+    "industry": "General / other",
+    "aliases": [],
+    "name": "General Landing Page",
+    "desc": "Industry-neutral catch-all: a solid marketing landing page that works for anything — the fallback so generation never lacks a structure.",
+    "personalityAffinity": ["modern", "professional", "friendly"],
+    "moodAffinity": ["clean", "light"],
+    "sections": [
+      { "id": "nav", "type": "Nav", "label": "Navigation", "intent": "Logo, a few section links, and a primary CTA.", "slotHints": ["logo", "navLink1", "navLink2", "navCta"] },
+      { "id": "hero", "type": "HeroSection", "label": "Hero", "intent": "Headline, supporting subhead, and a primary + secondary CTA.", "slotHints": ["headline", "subhead", "primaryCta", "secondaryCta"] },
+      { "id": "features", "type": "FeatureGrid", "label": "Feature / benefit grid", "intent": "3 cards covering the main benefits, each a title and a line.", "slotHints": ["feature1Title", "feature1Body", "feature2Title", "feature2Body", "feature3Title", "feature3Body"] },
+      { "id": "about", "type": "InfoCard", "label": "About block", "intent": "A short paragraph explaining what this is and who it's for.", "slotHints": ["aboutTitle", "aboutBody"] },
+      { "id": "testimonials", "type": "TestimonialCard", "label": "Testimonial", "intent": "One representative quote for social proof.", "slotHints": ["quote1", "author1"], "optional": true },
+      { "id": "cta", "type": "CTASection", "label": "Call to action", "intent": "A final headline and a single primary button.", "slotHints": ["ctaHeadline", "ctaButton"] },
+      { "id": "signup", "type": "SignupForm", "label": "Newsletter signup", "intent": "Low-friction email capture before the footer: one line on what subscribers get, name+email, subscribe button.", "slotHints": ["title", "intro", "submit"], "optIn": true },
+      { "id": "footer", "type": "Footer", "label": "Footer", "intent": "Links and a copyright line.", "slotHints": ["footerLinks"] }
+    ]
+  }
+]

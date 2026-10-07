@@ -1,0 +1,50 @@
+{
+  "name": "freshpress",
+  "version": "0.11.0",
+  "description": "Client-safe CMS for agency-built sites — ingest, edit, validate, and publish static websites.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env.local src/server.ts",
+    "dev:editor": "npm run dev --prefix editor",
+    "build": "tsc && npm run build --prefix editor",
+    "build:wp-plugin": "tsx scripts/build-wp-plugin.ts",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@react-email/components": "^1.0.12",
+    "@react-email/render": "^2.0.8",
+    "archiver": "^8.0.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.5.2",
+    "fast-xml-parser": "^5.8.0",
+    "mongodb": "^6.21.0",
+    "multer": "^2.1.1",
+    "nanoid": "^5.1.0",
+    "nodemailer": "^10.0.1",
+    "react": "^19.2.7",
+    "resend": "^6.12.4",
+    "sharp": "^0.35.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/archiver": "^8.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^22.13.4",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^19.2.17",
+    "@types/sharp": "^0.31.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

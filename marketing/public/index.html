@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FreshPress — Run your own website agency from your computer</title>
+  <meta name="description" content="FreshPress designs gorgeous client sites with AI, lets clients edit without breaking anything, and publishes to free hosting in one click." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="" width="28" height="28" />
+      <span>FreshPress</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#demo">Demo</a>
+      <a href="#hosting">Hosting</a>
+      <a href="/pricing">Pricing</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="/editor?demo=1">Try the live demo</a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Run your own website agency from your computer.</h1>
+        <p class="lede">FreshPress designs gorgeous client sites with AI, lets clients edit without breaking anything, and publishes to free hosting in one click.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="/editor?demo=1">Try the live demo — no signup</a>
+          <a class="btn btn-ghost" href="#early-access">Get early access</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="browser browser-back">
+          <div class="browser-bar"><i></i><i></i><i></i></div>
+          <div class="browser-body">
+            <div class="bar bar-wide"></div>
+            <div class="bar bar-mid"></div>
+            <div class="swatches"><b class="sw sw-1"></b><b class="sw sw-2"></b><b class="sw sw-3"></b><b class="sw sw-4"></b></div>
+          </div>
+        </div>
+        <div class="browser browser-front">
+          <div class="browser-bar"><i></i><i></i><i></i></div>
+          <div class="browser-body">
+            <div class="hero-block"></div>
+            <div class="bar bar-wide"></div>
+            <div class="bar bar-mid"></div>
+            <div class="slot-chip">✓ Safe to edit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="section slideshow-section">
+      <p class="kicker">See it in action</p>
+      <h2>Ninety seconds, start to finish.</h2>
+      <div id="slideshow" class="slideshow" tabindex="0" aria-roledescription="carousel" aria-label="FreshPress screenshot tour">
+        <noscript><p class="slide-fallback">Enable JavaScript to view the screenshot tour — or just <a href="/editor?demo=1">open the live demo</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section id="how" class="section props">
+
+      <article class="prop">
+        <div class="prop-copy">
+          <p class="kicker">Client-safe editing</p>
+          <h3>Clients can edit. They can't break it.</h3>
+          <p>Every page is a frozen template with editable slots. The Guardian checks each change, so structure, styles, and scripts stay locked.</p>
+        </div>
+        <div class="prop-art" aria-hidden="true">
+          <div class="mini-page">
+            <div class="bar bar-wide slot-ok"></div>
+            <div class="bar bar-mid slot-ok"></div>
+            <div class="bar bar-mid"></div>
+            <div class="badge-shield">Guardian ✓</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop prop-flip">
+        <div class="prop-copy">
+          <p class="kicker">AI design wizard</p>
+          <h3>Gorgeous sites in minutes, not weeks.</h3>
+          <p>Describe the business and pick a direction. Twenty brand-grade design systems — from Stripe to Linear — applied in one click.</p>
+        </div>
+        <div class="prop-art" aria-hidden="true">
+          <div class="theme-stack">
+            <div class="theme-card tc-1"></div>
+            <div class="theme-card tc-2"></div>
+            <div class="theme-card tc-3"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop">
+        <div class="prop-copy">
+          <p class="kicker">Email built in</p>
+          <h3>A full email suite, next to your sites.</h3>
+          <p>A shared inbox with folders and AI-drafted replies, plus multi-step nurture campaigns tied to your content.</p>
+        </div>
+        <div class="prop-art" aria-hidden="true">
+          <div class="mini-inbox">
+            <div class="inbox-row unread"><b></b><span></span></div>
+            <div class="inbox-row"><b></b><span></span></div>
+            <div class="inbox-row draft"><b></b><span>AI draft ready</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop prop-flip">
+        <div class="prop-copy">
+          <p class="kicker">No lock-in</p>
+          <h3>Leave whenever you like.</h3>
+          <p>Export any site as a WordPress theme ZIP, or import an existing WordPress site from one file. Your work stays portable.</p>
+        </div>
+        <div class="prop-art" aria-hidden="true">
+          <div class="export-art">
+            <span class="export-box">FreshPress</span>
+            <span class="export-arrows">⇄</span>
+            <span class="export-box export-wp">WordPress</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="prop">
+        <div class="prop-copy">
+          <p class="kicker">Publish for free</p>
+          <h3>Free hosting for client sites.</h3>
+          <p>One click renders a fast static site and deploys it to your own Vercel account. No servers to babysit.</p>
+        </div>
+        <div class="prop-art" aria-hidden="true">
+          <div class="publish-art">
+            <div class="publish-dot"></div>
+            <div class="publish-line"></div>
+            <div class="publish-globe">🌐</div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="hosting" class="section hosting">
+      <p class="kicker">Hosting</p>
+      <h2>Run it your way.</h2>
+      <div class="hosting-cards">
+        <div class="card">
+          <h3>Cloud</h3>
+          <p class="card-sub">We run it for you</p>
+          <p>Your own private FreshPress instance, hosted and kept up to date by us. Sign in and start building.</p>
+          <a class="btn btn-ghost" href="#early-access">Get early access</a>
+        </div>
+        <div class="card">
+          <h3>Self-Hosted</h3>
+          <p class="card-sub">You run it anywhere</p>
+          <p>Access to the private GitHub repo. Run FreshPress on your laptop, a VPS, or your own cloud — your data stays with you.</p>
+          <a class="btn btn-ghost" href="#early-access">Get early access</a>
+        </div>
+      </div>
+      <p class="hosting-note">Either way, client sites publish to your own free Vercel account.</p>
+    </section>
+
+    <section id="early-access" class="section early-access">
+      <h2>Get early access</h2>
+      <p>We're onboarding a small group of agencies. Leave your email and we'll save you a spot.</p>
+      <form id="ea-form">
+        <label class="sr-only" for="ea-email">Email address</label>
+        <input id="ea-email" type="email" name="email" placeholder="you@agency.com" required autocomplete="email" />
+        <button class="btn btn-primary" type="submit">Request access</button>
+      </form>
+      <p id="ea-msg" role="status"></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 FreshPress</span>
+    <nav aria-label="Legal">
+      <a href="/legal/eula">Purchase Terms</a>
+      <a href="/legal/license">Commercial License</a>
+      <a href="/legal/free">Free License</a>
+      <a href="/editor?demo=1">Live demo</a>
+    </nav>
+  </footer>
+
+  <script src="slideshow.js" defer></script>
+  <script>
+    (function () {
+      var form = document.getElementById('ea-form');
+      var msg = document.getElementById('ea-msg');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = document.getElementById('ea-email').value.trim();
+        if (!email) return;
+        var btn = form.querySelector('button');
+        btn.disabled = true;
+        fetch('/api/early-access', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email, source: 'homepage' }),
+        })
+          .then(function (res) { if (!res.ok) throw new Error('failed'); })
+          .then(function () {
+            form.hidden = true;
+            msg.textContent = "You're on the list — we'll be in touch soon.";
+          })
+          .catch(function () {
+            msg.textContent = 'Something went wrong — please try again in a minute.';
+            btn.disabled = false;
+          });
+      });
+    })();
+  </script>
+</body>
+</html>

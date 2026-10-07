@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/blader/humanizer",
+  "upstreamPath": "SKILL.md",
+  "version": "2.8.0",
+  "syncedAt": "2026-06-11T00:00:00.000Z",
+  "changelog": [
+    {
+      "date": "2026-06-11",
+      "note": "Initial ClaudePress bundle: upstream v2.8.0 + augment overlay"
+    }
+  ]
+}

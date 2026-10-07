@@ -1,0 +1,44 @@
+name: CI
+
+# CI for the PUBLIC free core (indieops-co/freshpress). This file is NOT used in the
+# workspace — scripts/sync-public-core.sh copies it into the public checkout as
+# .github/workflows/ci.yml on every sync. The public repo never contains the paid
+# overlay, so this is a single free-variant build+test — no build matrix and no
+# overlay-removal step (those belong to the workspace CI). It mirrors the free job the
+# workspace already runs green, and scripts/sync-public-core.sh --verify.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-test:
+    name: build & test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            editor/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm ci --prefix editor
+
+      # `npm run build` = backend `tsc` + editor `tsc -b && vite build`.
+      - name: Build (backend tsc + editor)
+        run: npm run build
+
+      - name: Test
+        run: npm test

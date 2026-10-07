@@ -1,0 +1,32 @@
+[
+  {
+    "src": "assets/slides/wizard.png",
+    "headline": "Describe the business. Pick a direction.",
+    "caption": "The create-site wizard turns a few answers into complete site designs, with live previews of each direction."
+  },
+  {
+    "src": "assets/slides/themes.png",
+    "headline": "20 brand-grade design systems",
+    "caption": "Stripe, Linear, Apple, Notion — swap a site's entire look in one click from the theme gallery."
+  },
+  {
+    "src": "assets/slides/editor.png",
+    "headline": "Click anything. Edit safely.",
+    "caption": "Slot-based editing with live preview — the Guardian keeps structure, styles, and scripts locked."
+  },
+  {
+    "src": "assets/slides/inbox.png",
+    "headline": "Every client conversation, one inbox",
+    "caption": "Folders, filters, and an AI-drafted reply waiting when you open a thread."
+  },
+  {
+    "src": "assets/slides/campaigns.png",
+    "headline": "Nurture sequences on autopilot",
+    "caption": "Multi-step email campaigns linked to your content pillars, delivered on your schedule."
+  },
+  {
+    "src": "assets/slides/blog.png",
+    "headline": "A blog engine that writes with you",
+    "caption": "Rich editing, content silos, and AI hero images for every post."
+  }
+]

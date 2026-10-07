@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FreshPress — Pricing</title>
+  <meta name="description" content="FreshPress plans: a free core you can self-host, Pro for the full agency toolkit, and Agency for white-label and scale." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="" width="28" height="28" />
+      <span>FreshPress</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/#how">How it works</a>
+      <a href="/#demo">Demo</a>
+      <a href="/pricing">Pricing</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="/editor?demo=1">Try the live demo</a>
+  </header>
+
+  <main>
+
+    <section class="section pricing">
+      <p class="kicker">Pricing</p>
+      <h2>Start free. Upgrade when you're running an agency.</h2>
+      <p class="pricing-lede">The core is free forever, source included. Paid plans add the
+        client-facing toolkit — brand research, email, the WordPress connector, and white-label.</p>
+
+      <div class="pricing-grid">
+
+        <!-- Free -->
+        <div class="tier">
+          <h3 class="tier__name">Free</h3>
+          <p class="tier__price"><span class="tier__amount">$0</span><span class="tier__per">forever</span></p>
+          <p class="tier__tagline">The free core. Self-host it anywhere.</p>
+          <ul class="tier__features">
+            <li>AI design wizard &amp; 20 brand-grade themes</li>
+            <li>Client-safe editing with Guardian</li>
+            <li>One-click publish to your Vercel</li>
+            <li>WordPress export &amp; import</li>
+            <li>1 client site</li>
+          </ul>
+          <a class="btn btn-ghost tier__cta" href="/editor?demo=1">Try the demo</a>
+        </div>
+
+        <!-- Pro (featured) -->
+        <div class="tier tier--featured">
+          <span class="tier__badge">Most popular</span>
+          <h3 class="tier__name">Pro</h3>
+          <!-- Price + checkout URL land at launch: set the amount here and point the CTA
+               href at your FRESHPRESS_CHECKOUT_URL (LemonSqueezy hosted checkout). -->
+          <p class="tier__price"><span class="tier__amount">Coming soon</span></p>
+          <p class="tier__tagline">Everything to run an agency from your computer.</p>
+          <ul class="tier__features">
+            <li><strong>Everything in Free, plus:</strong></li>
+            <li>Deep Brand Research</li>
+            <li>Full email suite — shared inbox &amp; nurture campaigns</li>
+            <li>Live WordPress connector (two-way sync)</li>
+            <li>No FreshPress watermark on published sites</li>
+            <li>5 client sites · 3 email automations per site</li>
+          </ul>
+          <a class="btn btn-primary tier__cta" href="/#early-access">Get early access</a>
+        </div>
+
+        <!-- Agency (coming soon) -->
+        <div class="tier tier--soon">
+          <span class="tier__badge tier__badge--muted">Coming soon</span>
+          <h3 class="tier__name">Agency</h3>
+          <p class="tier__price"><span class="tier__amount">Coming soon</span></p>
+          <p class="tier__tagline">White-label and scale for growing studios.</p>
+          <ul class="tier__features">
+            <li><strong>Everything in Pro, plus:</strong></li>
+            <li>White-label — your brand, not ours</li>
+            <li>50 client sites · 20 email automations per site</li>
+            <li>Priority support</li>
+          </ul>
+          <a class="btn btn-ghost tier__cta" href="/#early-access">Join the waitlist</a>
+        </div>
+
+      </div>
+
+      <p class="pricing-note">Self-hosting the core is always free. Paid tiers unlock at
+        runtime with a license key — no repo lock-in.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 FreshPress</span>
+    <nav aria-label="Legal">
+      <a href="/legal/eula">Purchase Terms</a>
+      <a href="/legal/license">Commercial License</a>
+      <a href="/legal/free">Free License</a>
+      <a href="/editor?demo=1">Live demo</a>
+    </nav>
+  </footer>
+
+</body>
+</html>

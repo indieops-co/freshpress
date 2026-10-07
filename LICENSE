@@ -1,21 +1,149 @@
-MIT License
+IndieOps Free License v1.0
 
-Copyright (c) 2026 FreshPressDev
+Product: FreshPress (free edition)
+Copyright © 2026 Dave Biggs. All rights reserved.
+Licensed under the IndieOps Free License v1.0, with the FreshPress additions at the end.
+Questions and permissions: support@indieops.co
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+THE SHORT VERSION
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Free to use, even commercially. Make things with it, make money with it, and change your copy however you like. Everything you make with it is yours. Just don't share, sell or repackage FreshPress itself. Send people to where you got it, and they can get their own free copy.
+
+This is a summary. The terms below are the license.
+
+
+1. What this covers
+
+This license applies to the product named above, including the FreshPress software (the CMS server, the editor and the bundled Skills) and the scripts, templates, prompts, graphics and documentation that come with it (the "Product").
+
+The Product is free of charge. It is not in the public domain and it is not open-source software, unless it explicitly says otherwise.
+
+By downloading, installing, copying or using the Product, you agree to this license.
+
+
+2. What you may do
+
+You get a limited, non-exclusive, non-transferable, royalty-free license to:
+
+- use the Product personally and in your business;
+- modify your copy for your own use;
+- use it to do paid work for clients;
+- create as many Outputs as you like, and use, publish and sell them (section 5);
+- keep backup copies for yourself.
+
+"Free" does not mean "personal use only". You may use the Product to make money.
+
+
+3. Who it covers
+
+Your license comes with a copy you get from IndieOps or the official place where the Product is distributed. A copy passed on by someone else comes with no license.
+
+One license covers one individual person. Anyone else can get their own free copy from the official place where the Product is distributed, and you are welcome to send them there.
+
+
+4. What you may not do
+
+The Product is free for you to use, not free for you to redistribute. Without written permission, you may not:
+
+- sell it, charge for access to it, or sublicense it;
+- give copies of it to other people;
+- publish it, or upload it to a marketplace, a public code repository, or a shared library or drive;
+- include it in a bundle, course, membership, community, newsletter, template pack, Skill or Plugin collection, software package, or any other offering that gives it to other people;
+- distribute a modified, renamed, translated or lightly rewritten version of it.
+
+Sharing a link to the official place where the Product is distributed is always fine.
+
+If your project lives in a public code repository, keep the Product's folder out of it (for example, by listing it in .gitignore).
+
+Changing your copy does not give you the right to distribute it. A modified copy that still contains substantial parts of the Product is still covered by this license.
+
+
+5. Outputs are yours
+
+An "Output" is what you create by using the Product as intended: for example a document, design, piece of code, report, course or website.
+
+Subject to the terms of any AI provider, platform or other service you used to make it, you may use your Outputs for any lawful purpose. You may publish them, sell them, give them to clients, change them, and build them into other products. No royalty is owed.
+
+Some Outputs contain parts of the Product by design, such as code, styles or illustrations the Product puts into what it builds. You may distribute those parts as part of that Output. You may not take them out and distribute them on their own, or as a kit for building more Outputs.
+
+An Output is never a copy of the Product itself. Using FreshPress to build a client's website is fine. Giving the client a copy of FreshPress is not; send them to where it's distributed instead.
+
+
+6. No competing copies
+
+You may study the Product, learn from it, and build your own work using general ideas, techniques and knowledge that nobody owns.
+
+You may not copy, extract, rewrite, translate, rename or rearrange substantial parts of the Product, whether by hand or with AI tools, in order to distribute a Skill, Plugin, template, workflow, prompt pack or similar product that substitutes for it.
+
+
+7. Notices
+
+Do not remove or alter copyright, license or trademark notices in the Product. Your own Outputs do not need to show IndieOps branding unless the Product says otherwise.
+
+
+8. Third-party components
+
+The Product may include, or work with, software, libraries, APIs, AI models or services owned by other people. Those remain under their own licenses and terms. This license grants only the rights that Dave Biggs controls.
+
+
+9. Updates and availability
+
+The Product may be changed, updated, discontinued, or made into a paid product in the future. The version you lawfully obtained stays licensed to you under these terms, unless you accept different terms for a later version.
+
+This license does not guarantee updates, support, hosting or continued availability, but questions are always welcome at support@indieops.co.
+
+
+10. Ownership
+
+The Product is licensed, not sold or transferred. All rights not expressly granted in this license are reserved. No ownership, trademark or other intellectual-property rights transfer to you, and the IndieOps name and logos are not licensed to you.
+
+
+11. Lawful use
+
+Do not use the Product to break the law, or to infringe anyone's intellectual-property, privacy, publicity or contractual rights.
+
+
+12. No warranty
+
+THE PRODUCT IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY LAW. THERE IS NO GUARANTEE THAT THE PRODUCT WILL BE ERROR-FREE OR WILL REMAIN COMPATIBLE WITH ANY AI MODEL, PLATFORM, API, OPERATING SYSTEM OR THIRD-PARTY SERVICE.
+
+
+13. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, DAVE BIGGS AND ANY DISTRIBUTOR OF THE PRODUCT WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES ARISING FROM THE PRODUCT OR ITS USE. BECAUSE THE PRODUCT IS FREE, TOTAL LIABILITY ARISING FROM IT WILL NOT EXCEED US $100.
+
+Some jurisdictions do not allow some of these exclusions or limits, so parts of this section may not apply to you.
+
+
+14. Termination
+
+Your rights under this license end if you materially break its terms. If the breach can be fixed and you fix it within 30 days of becoming aware of it, your license is reinstated.
+
+Outputs you lawfully created before termination stay yours, unless they are themselves prohibited copies of the Product.
+
+
+15. Governing law
+
+This license is governed by the laws of the State of California, USA, without regard to conflict-of-law rules. Any dispute about it will be heard in the state courts in Marin County, California, or the federal courts for the Northern District of California, unless applicable law requires otherwise.
+
+
+16. Entire agreement
+
+This license, including the FreshPress additions below, is the whole agreement about your license to the Product.
+
+
+FRESHPRESS ADDITIONS
+
+These additions are part of this license and apply only to FreshPress.
+
+A. Official place of distribution. The official place where the free edition of FreshPress is distributed is https://github.com/indieops-co/freshpress.
+
+B. Your team and your clients. FreshPress is a content-management system: you run it, and you give other people logins to it. People you give a login to your own FreshPress installation, such as your team members and your clients editing their own websites, may use it through that installation for work on the websites you manage. They do not need their own license, and giving them a login is not giving them a copy of the Product. Running one installation for other businesses that are not your clients (for example, selling FreshPress hosting as a service) needs written permission.
+
+C. The WordPress plugin. The FreshPress Connector WordPress plugin in the wp-plugin/ folder is licensed under the GNU General Public License, version 2 or any later version (GPL-2.0-or-later), as stated in its files, and not under this license.
+
+D. Third-party notices. The third-party material listed in NOTICE.md stays under its own licenses (section 8). Keep NOTICE.md with your copy.
+
+
+IndieOps Free License v1.0

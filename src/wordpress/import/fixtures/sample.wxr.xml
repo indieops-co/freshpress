@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+  <title>Sample Blog</title>
+  <link>https://example.com</link>
+  <description>Test export</description>
+  <wp:wxr_version>1.2</wp:wxr_version>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[jane]]></wp:author_login>
+    <wp:author_email><![CDATA[jane@example.com]]></wp:author_email>
+    <wp:author_display_name><![CDATA[Jane Doe]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[Jane]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[Doe]]></wp:author_last_name>
+  </wp:author>
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[news]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[News]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[local]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[news]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Local]]></wp:cat_name>
+  </wp:category>
+
+  <wp:tag>
+    <wp:term_id>20</wp:term_id>
+    <wp:tag_slug><![CDATA[featured]]></wp:tag_slug>
+    <wp:tag_name><![CDATA[Featured]]></wp:tag_name>
+  </wp:tag>
+
+  <item>
+    <title>hero.jpg</title>
+    <link>https://example.com/wp-content/uploads/2024/01/hero.jpg</link>
+    <dc:creator><![CDATA[jane]]></dc:creator>
+    <wp:post_id>100</wp:post_id>
+    <wp:post_date><![CDATA[2024-01-15 10:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[hero-jpg]]></wp:post_name>
+    <wp:status><![CDATA[inherit]]></wp:status>
+    <wp:post_type><![CDATA[attachment]]></wp:post_type>
+    <wp:attachment_url><![CDATA[https://example.com/wp-content/uploads/2024/01/hero.jpg]]></wp:attachment_url>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+      <wp:meta_value><![CDATA[2024/01/hero.jpg]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+
+  <item>
+    <title>Hello World</title>
+    <link>https://example.com/hello-world/</link>
+    <dc:creator><![CDATA[jane]]></dc:creator>
+    <content:encoded><![CDATA[<p>Welcome to the blog.</p><img src="https://example.com/wp-content/uploads/2024/01/hero.jpg" />]]></content:encoded>
+    <excerpt:encoded><![CDATA[Welcome excerpt]]></excerpt:encoded>
+    <wp:post_id>101</wp:post_id>
+    <wp:post_date><![CDATA[2024-01-16 12:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[hello-world]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[post]]></wp:post_type>
+    <category domain="category" nicename="local"><![CDATA[Local]]></category>
+    <category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+    <wp:postmeta>
+      <wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+      <wp:meta_value><![CDATA[100]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:comment>
+      <wp:comment_id>1</wp:comment_id>
+      <wp:comment_author><![CDATA[Bob]]></wp:comment_author>
+      <wp:comment_author_email><![CDATA[bob@example.com]]></wp:comment_author_email>
+      <wp:comment_author_url></wp:comment_author_url>
+      <wp:comment_content><![CDATA[Great post!]]></wp:comment_content>
+      <wp:comment_approved>1</wp:comment_approved>
+      <wp:comment_date><![CDATA[2024-01-17 09:00:00]]></wp:comment_date>
+      <wp:comment_parent>0</wp:comment_parent>
+    </wp:comment>
+    <wp:comment>
+      <wp:comment_id>2</wp:comment_id>
+      <wp:comment_author><![CDATA[Alice]]></wp:comment_author>
+      <wp:comment_author_email><![CDATA[alice@example.com]]></wp:comment_author_email>
+      <wp:comment_content><![CDATA[Thanks Bob!]]></wp:comment_content>
+      <wp:comment_approved>1</wp:comment_approved>
+      <wp:comment_date><![CDATA[2024-01-17 10:00:00]]></wp:comment_date>
+      <wp:comment_parent>1</wp:comment_parent>
+    </wp:comment>
+  </item>
+
+  <item>
+    <title>About Us</title>
+    <link>https://example.com/about/</link>
+    <dc:creator><![CDATA[jane]]></dc:creator>
+    <content:encoded><![CDATA[<h1>About Us</h1><p>We are a sample company.</p>]]></content:encoded>
+    <wp:post_id>102</wp:post_id>
+    <wp:post_date><![CDATA[2024-01-10 08:00:00]]></wp:post_date>
+    <wp:post_name><![CDATA[about]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+  </item>
+</channel>
+</rss>
